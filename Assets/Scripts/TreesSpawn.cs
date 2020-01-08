@@ -24,7 +24,7 @@ public class TreesSpawn : MonoBehaviour
         {
             GameObject newtrees = Instantiate(trees);
             newtrees.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-            Destroy(newtrees, 3);
+            Destroy(newtrees, 5);
             timer = 0;
         }
         timer += Time.deltaTime;
