@@ -23,6 +23,6 @@ public class Fly : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) 
     {
-           gameManager.GameOver();
+        gameManager.GameOver();
     }
 }

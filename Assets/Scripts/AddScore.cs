@@ -5,10 +5,9 @@ using UnityEngine;
 public class AddScore : MonoBehaviour
 {
 
-    void OnTriggerEnter2D(Collider2D other) 
+    private void OnTriggerEnter2D(Collider2D other) 
     {
-        Debug.Log("+");
-        // Score.score++;
+        Debug.Log(" + ");
+        Score.score++;
     }
-
 }
