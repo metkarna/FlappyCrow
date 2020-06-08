@@ -9,7 +9,6 @@ public class TreesSpawn : MonoBehaviour
     private float timer = 0;
     public float height; 
 
-    // Start is called before the first frame update
     void Start()
     {
         GameObject newtrees = Instantiate(trees);
@@ -17,7 +16,6 @@ public class TreesSpawn : MonoBehaviour
         Destroy(newtrees, 5);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(timer > maxTime)
