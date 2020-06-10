@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        // Move.speed = 0;
         Time.timeScale = 0;
         gameOverCanvas.SetActive(true);
     }
