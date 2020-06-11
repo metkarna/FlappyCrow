@@ -9,9 +9,24 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverCanvas;
     public GameObject scoreCanvas;
 
+    public GameObject dayBackground;
+    public GameObject nightBackground;
+
+
     private void Start()
     {
         Time.timeScale = 0;
+
+        if(Random.Range(0, 100) > 50)
+        {
+            nightBackground.SetActive(true);
+            dayBackground.SetActive(false);
+        }
+        else
+        {
+            dayBackground.SetActive(true);
+            nightBackground.SetActive(false);
+        }
     }
 
     public void GameStart()
@@ -23,7 +38,6 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        // Move.speed = 0;
         Time.timeScale = 0;
         gameOverCanvas.SetActive(true);
     }
