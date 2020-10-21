@@ -1,12 +1,12 @@
 # FlappyCrow
 Клон игры Flappy Bird
 
-![Стартовый экран](./desc/main.png) 
-![Стартовый экран](./desc/in_game.png) 
+![Стартовый экран](./Desc/main.png) 
+![Стартовый экран](./Desc/in_game.png) 
 
 ## Геймплей
-![Стартовый экран](./desc/main.gif)
-![Стартовый экран](./desc/gameplay.gif)
+![Стартовый экран](./Desc/main.gif)
+![Стартовый экран](./Desc/gameplay.gif)
 
 ## Фрагменты кода
 
