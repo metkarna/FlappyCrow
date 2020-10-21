@@ -1,2 +1,4 @@
 # FlappyCrow
-My Flappy Bird app copy
+Клон игры Flappy Bird
+
+
